@@ -151,6 +151,18 @@ h1 {
   padding: 2rem;
 }
 
+.input-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  text-transform: uppercase;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
 h2 {
   font-size: 1.5rem;
   padding-bottom: 1rem;
