@@ -180,6 +180,25 @@ input {
   height: 2.5rem;
   border: solid gray 1px;
   border-radius: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+input::placeholder {
+  color: lightgrey;
+}
+
+input:focus {
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  outline: none;
+}
+
+input:invalid:focus {
+  border: 2px solid red;
+}
+
+input:valid:focus {
+  border: 2px solid #1369db;
 }
 
 button {
